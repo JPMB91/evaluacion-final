@@ -17,9 +17,10 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 8rem;
+  height: 9rem;
   font-weight: 500;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  flex-wrap: wrap;
 }
 
 .header-navbar {
@@ -35,6 +36,7 @@ header {
 
 .header-navbar li,
 a {
+  padding: 0.2rem 0;
   list-style: none;
   text-decoration: none;
   cursor: pointer;
@@ -51,7 +53,7 @@ a:hover {
   align-items: center;
 } */
 
-.button{
+.button {
   font-size: 0.824rem;
   padding: 0.6rem 1.6rem;
   border-radius: 1.5rem;
@@ -62,6 +64,38 @@ a:hover {
   color: #ffffff;
 }
 
+.third-section {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article-container {
+  margin: 1.2rem 0;
+  width: 28rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.article-numbers {
+  gap: 0.8rem;
+  display: flex;
+  font-family: 700;
+}
+.article-numbers span {
+  padding: 0.3rem 1rem;
+  border-radius: 0.8rem;
+  background-color: #8b48bf;
+  color: #ffffff;
+}
+
+.article-container p {
+  color: #B3B2B7;
+  font-weight: 500
+;
+  margin-left: 4rem;
+  text-align: left;
+}
 @media (max-width: 468px) {
   header {
     justify-content: space-between;
