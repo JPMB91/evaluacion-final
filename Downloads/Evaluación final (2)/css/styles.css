@@ -1,0 +1,223 @@
+.imagenes {
+  display: flex;
+  background-color: #1e1e26;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8rem;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.header-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-navbar li,
+a {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #242e52;
+}
+
+.mobile-menu {
+  display: none;
+}
+a:hover {
+  color: #ced0d8;
+}
+/* .logo {
+  align-items: center;
+} */
+
+.button{
+  font-size: 0.824rem;
+  padding: 0.6rem 1.6rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+.button-purple {
+  background-color: #8b48bf;
+  color: #ffffff;
+}
+
+.main-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+  height: auto;
+  flex-wrap: nowrap;
+  width: 85%;
+}
+.first-description{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  align-items: right;
+  height: 399px;
+  width: 450px;
+  padding-left: 2rem;
+  
+}
+.img-padel{
+  width: auto;
+}
+.first-description h1{
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #232C50;
+  line-height: 3.581rem;
+  text-align: right;
+  letter-spacing:-0.125px;
+}
+.first-description p{
+  font-size: 1.031rem;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.626rem;
+  text-align: right;
+  letter-spacing:-0.125px;
+}
+.second-section, .fifth-section{
+  background-color: #8B48BF;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 12rem;
+  gap:6rem
+}
+.second-section{
+  height: 10,5rem;
+}
+.fifth-section{
+  height: 14rem;
+}
+.second-section h2{
+  font-size: 2.188rem;
+  font-weight: 700;
+  line-height: 2rem;
+  width: 450px;
+
+}
+.second-section p{
+  font-weight: 500;
+  line-height: 1.875rem;
+  width: 450px;
+}
+.fifth-section p{
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.99rem;
+  letter-spacing: -0.031rem;
+  width: 500px;
+}
+.fifth-description{
+  width: 35%;
+  text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .first-description{
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .first-description h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .first-description p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .img-padel{
+    width: 100%;
+  }
+  .second-section, .fifth-section{
+    padding: 2rem 3rem;
+    gap: 2rem;
+  }
+  .second-section h2{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 100%;
+  }
+  .second-section p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+  }
+  .fifth-section p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.031rem;
+    width: 100%;
+  }
+  .fifth-description{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  header {
+    justify-content: space-between;
+  }
+  .header-navbar,
+  .button-hide {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+  .main-section{
+   margin: 2rem 1rem;
+   width: 88%;
+  }
+  .img-padel{
+    width: 100%;
+  }
+  .fifth-description{
+    height: auto;
+    gap: 1.5rem;
+  }
+  .first-description{
+    height: auto;
+    gap: 1.5rem;
+  }
+}
