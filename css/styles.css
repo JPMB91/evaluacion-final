@@ -1,7 +1,4 @@
-footer {
-  display: flex;
-  background-color: #1e1e26;
-}
+
 
 * {
   margin: 0;
@@ -27,6 +24,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .menu {
@@ -34,7 +32,7 @@ header {
   gap: 1.5rem;
 }
 
-.header-navbar, nav li,
+.header-navbar, li,
 a {
   padding: 0.2rem 0;
   list-style: none;
@@ -133,69 +131,89 @@ a:hover {
   width: 32vw;
 }
 
-/* footer{
+
+footer{
+  align-items: center;
   padding: 1rem 4rem;
-  height: 45vh;
+  /* height: 35vh; */
   justify-content: center;
+  display: flex;
+  background-color: #1e1e26;
  } 
 
 .footer-icons{
-  padding: 3rem 1rem;
-  width: 32vw;
+  /* padding: 1rem 1rem; */
+  width: 22vw;
+  align-items: center;
 }
 
 
 .socials{
   margin-top: 3rem;
+  /* gap: 20px; */
+  letter-spacing: 0.3rem;
 }
-
-
 
 .footer-navbar{
-margin: 2rem; 
-  display: flex;
-  flex-wrap: wrap;
-  width: 30vw;
-  justify-content: space-between;
-  
+  padding: 2rem;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* width: 30vw; */
+  width: auto;
 }
+
 
 .footer-navbar a{
  color: #ffffff;
   font-weight: 400;
   line-height: 23.48px;
+  /* gap: 2rem; */
+}
 
+.footer-menu li{
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-menu{
-  justify-content: first baseline;
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 9rem;
-  width: 26rem;
+  height: 10rem;
+  /* width: 28rem; */
+  width: 40vw;
 }
 
-.footer-menu li:nth-child(){
- align-items: flex-end;
-}
 
 .footer-form{
 
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   display: flex;
   flex-direction: column;
-
+  text-align: right;
   height: 8rem;
   justify-content: space-between;
-  width:20vw;
+  width:18vw;
   font-size: 0.9rem;
   font-weight: 500;
   color: #8C8C94;
 
-} */
+}
+.inbox{
+  display: flex ;
+}
+.footer-form input{
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: none;
+}
 
-@media (max-width: 468px) {
+.right{
+  text-align: right;
+}
+
+@media (max-width: 480px) {
   header {
     justify-content: space-between;
   }
@@ -249,4 +267,10 @@ margin: 2rem;
   .best-showcase:not(:nth-of-type(even)){
     display: none;
   }
+
+  footer{
+    flex-direction: column;
+    height: auto;
+  }
+  
 }
