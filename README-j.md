@@ -5,4 +5,5 @@
 * Agregado link de la fuente a usarse en el proyecto
 * Reset de estilos usando selector universal
 * Header con pseudo-selectores + su responsivo en mobile
-* Seccion 3 y seccion 4 con sus responsivos
+* Seccion 3 y seccion 4 con sus responsivos en mobile
+* Footer con sus estilos y responsivo en mobile
