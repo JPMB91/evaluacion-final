@@ -141,6 +141,14 @@ a:hover {
   width: 35%;
   text-align: right;
 }
+.fifth-section-button{
+  background-color: #ffffff;
+  color: #8B48BF;
+  font-weight: 500;
+  padding: 0.6rem 1.6rem;
+  border-radius: 1.5rem;
+  border: none;
+}
 
 @media screen and (max-width: 1024px) {
   .main-section{
@@ -209,8 +217,8 @@ a:hover {
    margin: 2rem 1rem;
    width: 88%;
   }
-  .img-padel{
-    width: 100%;
+  .img-padel img {
+    width: 80vw;
   }
   .fifth-description{
     height: auto;
@@ -219,5 +227,20 @@ a:hover {
   .first-description{
     height: auto;
     gap: 1.5rem;
+  }
+  .second-section, .fifth-section{
+     background-color: #3CDDF3;
+     flex-direction: column;
+  }
+  .fifth-section-p {
+    width: 40%;
+    text-align: center;
+  }
+  .fifth-section-button{
+    background-color: #232c50;
+    color: white;
+    padding: 0.6rem 1.6rem;
+    border-radius: 1.5rem;
+    border: none;
   }
 }
