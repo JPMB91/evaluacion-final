@@ -32,7 +32,7 @@ header {
 
 .header-navbar,
 li,
-a {
+a, button {
   padding: 0.2rem 0;
   list-style: none;
   text-decoration: none;
@@ -267,7 +267,7 @@ footer {
     flex-direction: column-reverse;
     width: auto;
     justify-content: center;
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     position: relative;
   }
 
@@ -303,5 +303,6 @@ footer {
     position: absolute;
     bottom: 20px;
     right: 30%;
+    margin-bottom: 1rem;
   }
 }
