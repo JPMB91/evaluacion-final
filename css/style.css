@@ -206,10 +206,10 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 32%
+  width: 32%;
 }
 
-.fifth-section{
+.fifth-section {
   padding: 2rem 3rem;
 }
 
@@ -251,9 +251,14 @@ footer {
 }
 .footer-socials {
   margin-top: 3rem;
-  letter-spacing: 0.3rem;
+ 
 }
 
+.footer-socials ul{
+  display: flex;
+  flex-direction: row;
+  gap:0.5rem;
+}
 .footer-navbar {
   padding: 2rem;
   width: auto;
@@ -263,7 +268,8 @@ footer {
   color: #ffffff;
   font-weight: 400;
   line-height: 23.48px;
-  width: 12rem;
+  width: 25vw;
+  display: flex;
 }
 
 .footer-menu {
@@ -314,7 +320,8 @@ footer {
   padding: 0.3rem 0.9rem;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px){
+/* @media (width <= 480px) { */
   header {
     justify-content: space-between;
   }
@@ -354,7 +361,6 @@ footer {
     width: 80%;
   }
   .second-section p {
-    /* margin-top: 0; */
     text-align: left;
     width: 100%;
   }
@@ -412,7 +418,7 @@ footer {
     align-items: center;
   }
   .fifth-section-button {
-    width: 25vw;
+    width: 23vw;
     justify-content: center;
     background-color: #232c50;
     color: white;
@@ -435,14 +441,15 @@ footer {
     width: auto;
   }
 
-  .footer-socials {
-    letter-spacing: 3rem;
-  }
 
   .footer-logo {
     margin: 2rem;
     display: flex;
     align-self: center;
+  }
+
+  .footer-socials ul {
+    gap:3.5rem;
   }
 
   .footer-menu {
@@ -462,5 +469,9 @@ footer {
     bottom: 20px;
     right: 30%;
     margin-bottom: 1rem;
+  }
+
+  .footer-navbar a {
+    width: 35vw;
   }
 }
