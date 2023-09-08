@@ -319,7 +319,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-  /* @media (width <= 480px) { */
   header {
     justify-content: space-between;
   }
@@ -393,7 +392,7 @@ footer {
     align-items: center;
   }
 
-  .footer-best{
+  .footer-best {
     width: 100%;
     margin-bottom: 1rem;
   }
@@ -461,6 +460,11 @@ footer {
     width: 60vw;
   }
 
+  .footer-form input::placeholder {
+    font-size: 1rem;
+    color: #8b48bf;
+    font-weight: 700;
+  }
   .copyright {
     position: absolute;
     bottom: 20px;

@@ -15,7 +15,7 @@
 - Header con pseudo-clase hover en las etiquetas anchor y botones más el responsivo en mobile usando el icono de menu hamburguesa.
 - Seccion 3(third-section) cards usando article y flex wrap para ubicar el contenido en forma de piramide invertida y su responsivo en mobile con presentacion en columna.
 - seccion 4(fourth-section) cards y su responsivos en mobile con pseudo-clase nth-of-type() para ocultar las cards que no se muestran en mobile.
-- Footer con sus estilos y responsivo en mobile usando column reverse y position absolute para posicionar el copyright.
+- Footer con sus estilos y responsivo en mobile usando column reverse y position absolute para posicionar el copyright. Pseudo-elemento en el  form para cambiar el color del placeholder en la versión mobile con fines didácticos.
 
 ## Ivonne Oña:
 
